@@ -10,6 +10,8 @@
  -->
     <link rel="stylesheet" href="css/01.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -172,7 +174,7 @@
         </main><!-- #main end -->
 
         <section class="section01">
-            <div class="cont01" >
+            <div class="cont01">
                 <a href="#">
                     <img src="img/cont_01.png" alt="">
                     <img src="img/cont_01_hover.png" alt="">
@@ -676,9 +678,9 @@
     </div>
 
 
-
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
@@ -753,6 +755,8 @@
                 clickable: true,
             },
         });
+
+        AOS.init();
     </script>
 </body>
 
